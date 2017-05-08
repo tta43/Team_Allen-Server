@@ -9,7 +9,7 @@ CMainApp::CMainApp(void)
 : m_pGraphicDev(Engine::CGraphicDev::GetInstance())
 , m_pDevice(NULL)
 {
-	// Å×½ºÆ®
+
 }
 
 CMainApp::~CMainApp(void)
