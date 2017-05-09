@@ -1,0 +1,15 @@
+﻿  WallXYTex.cpp
+  WallTex.cpp
+  VIBuffer.cpp
+  TriColor.cpp
+  Texture.cpp
+  TerrainTex.cpp
+  Resources.cpp
+  ResourceMgr.cpp
+  RcTex.cpp
+  RcColor.cpp
+  CubeTex.cpp
+  코드를 생성하고 있습니다...
+     ../bin\Resources.lib 라이브러리 및 ../bin\Resources.exp 개체를 생성하고 있습니다.
+  Resources.vcxproj -> C:\Users\Administrator\Desktop\Team_Allen-Server\Engine\Resources\Include\../bin\Resources.dll
+  Resources.vcxproj -> ../bin\Resources.pdb (Full PDB)

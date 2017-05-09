@@ -1,0 +1,19 @@
+﻿  Camera.cpp
+  Component.cpp
+  Frame.cpp
+  GameObject.cpp
+  Layer.cpp
+  Management.cpp
+  MathMgr.cpp
+  Observer.cpp
+  Pipeline.cpp
+  Renderer.cpp
+  Scene.cpp
+  Subject.cpp
+  Transform.cpp
+     ../bin\Utility.lib 라이브러리 및 ../bin\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 911 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Utility.vcxproj -> C:\Users\Administrator\Desktop\Team_Allen-Server\Engine\Utility\Include\../bin\Utility.dll
+  Utility.vcxproj -> ../bin\Utility.pdb (Full PDB)

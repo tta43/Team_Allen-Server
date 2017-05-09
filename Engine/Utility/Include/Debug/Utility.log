@@ -1,0 +1,17 @@
+﻿  Transform.cpp
+  Subject.cpp
+  Scene.cpp
+  Renderer.cpp
+  Pipeline.cpp
+  Observer.cpp
+  MathMgr.cpp
+  Management.cpp
+  Layer.cpp
+  GameObject.cpp
+  Frame.cpp
+  Component.cpp
+  Camera.cpp
+  코드를 생성하고 있습니다...
+     ../bin\Utility.lib 라이브러리 및 ../bin\Utility.exp 개체를 생성하고 있습니다.
+  Utility.vcxproj -> C:\Users\Administrator\Desktop\Team_Allen-Server\Engine\Utility\Include\../bin\Utility.dll
+  Utility.vcxproj -> ../bin\Utility.pdb (Full PDB)

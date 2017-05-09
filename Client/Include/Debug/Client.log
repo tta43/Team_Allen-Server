@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  Client.cpp
+  Wall.cpp
+  Stage.cpp
+  Player.cpp
+  MainApp.cpp
+  LogoBack.cpp
+  Logo.cpp
+  Floor.cpp
+  Ceiling.cpp
+  코드를 생성하고 있습니다...
+Ceiling.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  Client.vcxproj -> C:\Users\Administrator\Desktop\Team_Allen-Server\Client\Include\../bin\Client.exe
+  Client.vcxproj -> ../bin\Client.pdb (Full PDB)

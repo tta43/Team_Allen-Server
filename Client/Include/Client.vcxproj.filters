@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00.MainApp">
+      <UniqueIdentifier>{3d4dab0c-be6d-4ac2-a46b-273cf4acbd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene">
+      <UniqueIdentifier>{a69a7363-cc29-4ec3-8b37-2fbca919cc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{b019eae4-5aab-4e37-a0d1-3830ccff2148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{b433996b-976d-494d-b8c4-83ce1e82abb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\00.Logo">
+      <UniqueIdentifier>{b2a06597-d570-4b52-bfd9-feb46ed4a911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\01.Stage">
+      <UniqueIdentifier>{92d140db-4412-4b81-b1f7-92a5ec6301e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object">
+      <UniqueIdentifier>{4841059f-e40f-4430-9c3f-7725996eaed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo">
+      <UniqueIdentifier>{039bbb98-8612-4f53-a065-43c273e41a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage">
+      <UniqueIdentifier>{7e79a311-0673-4ac8-968e-39030ccb2a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo\00.LogoBack">
+      <UniqueIdentifier>{8701ec11-7fd3-4b68-a952-423ecb4d482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.Player">
+      <UniqueIdentifier>{a04372ea-a428-4005-9762-5be13af082e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map">
+      <UniqueIdentifier>{4c5bdb48-750d-41f3-ad0d-368b3db1f553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\00.Floor">
+      <UniqueIdentifier>{2c9e9909-33ec-4ce2-bae3-681fd43784aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\01.Ceiling">
+      <UniqueIdentifier>{a9319980-b8ed-4cb4-8d0a-258d3fb60ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\02.Wall">
+      <UniqueIdentifier>{50505e4b-bdd4-442e-971b-049769fa0ea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBack.cpp">
+      <Filter>소스 파일\02.Object\00.Logo\00.LogoBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Floor.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\00.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Wall.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\02.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ceiling.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\01.Ceiling</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Value.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneSelector.h">
+      <Filter>소스 파일\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoBack.h">
+      <Filter>소스 파일\02.Object\00.Logo\00.LogoBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Floor.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\00.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Wall.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\02.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ceiling.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\01.Ceiling</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
